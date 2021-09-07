@@ -25,6 +25,13 @@ h1{
     padding-top: 25px;
     font-size: 30px;
 }
+.despedida{
+    font-family: sans-serif;
+    text-align: center;
+    color: #023859;
+    padding-top: 25px;
+    font-size: 30px;
+}
 span{
     color: orange;
 }
