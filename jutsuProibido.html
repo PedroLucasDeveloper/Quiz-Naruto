@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Naruto</title>
+    <link rel="shortcut icon" href="icons/Kalangozilla-Skrynium-Black-Naruto.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style2.css">
+    <script>
+        function Validacao(campo){
+            if(campo.name == "Correta"){
+        campo.style.background = "green"
+        campo.style.color = "white"
+        alert('Resposta certa!')
+            }else{
+        window.document.form1.Correta.style.background = "green"
+        window.document.form1.Correta.style.color = "white"
+        campo.style.background = "red"
+        campo.style.color = "white"
+        alert('Resposta Errada!') 
+            }
+        }
+    </script>
+</head>
+<body>
+    <main>
+            <picture><img src="imagens/JutsuProibido.jpg" alt="Jutsu Proibido" class="Personagem"></picture>
+
+        <form name="form1">
+        <h2>O que é um jutsu proibido?</h2>
+            <input type="button" value="É um jutsu que trás os mortos de volta a vida" onclick="Validacao(this)">
+            <input type="button" value="É um jutsu que copia o chakra do inimigo, podendo ser usado para provocar uma terrível destruição" onclick="Validacao(this)">
+            <input type="button" name="Correta" value="É um jutsu que causa ferimentos ao corpo de seu usuário, viola as leis da natureza e provoca uma enorme destruição" onclick="Validacao(this)">
+
+            <div>
+                <a href="akatsuki.html" class="Proximo">Anterior</a>
+                <a href="#" class="Anterior">Próximo</a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Lucas, aluno do curso de Informática da EEEP Clemente Olintho Távora Arruda</p>
+        <a href="https://github.com/PedroLucasDeveloper"><img src="icons/Github-icon.png" alt="Github-icon" width="30px" height="30px"></a>
+        <a href="https://www.instagram.com/pedroox_ps/"><img src="imagens/instagram-icon.png" alt="Instagram" width="30px" height="30px"></a>   
+    </footer>
+</body>
+</html>
