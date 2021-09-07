@@ -1,4 +1,4 @@
-/* body{
+body{
     background-image: linear-gradient(to right, #F29F05, #F28705, #F20505);
 }
 main{
@@ -10,9 +10,9 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
-     *//* box-shadow: 0px 0px 10px rgb(10, 10, 10); */
-/* } */
-/* footer{
+    box-shadow: 0px 0px 10px rgb(10, 10, 10);
+}
+footer{
     background-image: linear-gradient(to left, #049DD9, #0477BF, #049DD9);
     color: white;
     font-family: sans-serif;
@@ -22,12 +22,12 @@ main{
     padding-top: 3px;
     padding-top: 3px;
     border-radius: 12px;
-} */
-/* .Personagem{
+}
+.Personagem{
     display: block;
     margin: auto;
-} */
-/* input{
+}
+input{
     display: block;
     padding: 5px;
     margin: 5px;
@@ -38,19 +38,19 @@ input:hover{
     background-color: #F29F05;
     color: white;
     font-weight: bold;
-} */
-/* form{
+}
+form{
     display: flex;
     flex-direction: column;
     margin: auto;
-} */
-/* h2{
+}
+h2{
     font-family: sans-serif;
     text-align: center;
     color:#023859;
     font-weight: bold;
-} */
-/* .Proximo{
+}
+.Proximo{
     display: flex;
     background-color: #F29F05;
     height: 40px;
@@ -69,12 +69,12 @@ input:hover{
     margin-top: 5px;
     border-radius: 7px;
     text-align: center;
-} */
-/* div{
+}
+div{
     display: flex;
     flex-direction: row;
-} */
-/* a{
+}
+a{
     text-decoration: none;
     color: white;
     font-family: sans-serif;
@@ -82,4 +82,4 @@ input:hover{
     padding-left: 8px;
     padding-right: 10px;
     font-size: 27px;
-} */
+}

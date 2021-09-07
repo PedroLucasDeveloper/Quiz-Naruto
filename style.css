@@ -1,4 +1,4 @@
-/* body{
+body{
     background-image: linear-gradient(to right, #F29F05, #F28705, #F20505);
 }
 main{
@@ -11,54 +11,54 @@ main{
     border-bottom-right-radius: 10px;
     padding: 20px;
     box-shadow: 0px 0px 10px rgb(10, 10, 10);
-} */
-/* header{
+}
+header{
     background-image: linear-gradient(to right, #0477BF, #023859, #049DD9);
     min-height: 90px;
     border-radius: 15px;
     align-items: center;
-} */
-/* h1{
+}
+h1{
     font-family: sans-serif;
     text-align: center;
     color: white;
     padding-top: 25px;
     font-size: 30px;
-} */
-/* span{
+}
+span{
     color: orange;
-} */
-/* h2{
+}
+h2{
     font-family: sans-serif;
     text-align: center;
     color:#023859;
     font-weight: bold;
-} */
-/* main p{
+}
+main p{
     font-family: sans-serif;
     text-align: justify;
     line-height: 1.5em;
     text-indent: 30px;
-} */
-/* div{
+}
+div{
     background-color: #F29F05;
     height: 40px;
     width: 130px;
     margin: auto;
     border-radius: 7px;
-} */
-/* a{
+}
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding-left: 8px;
     padding-right: 10px;
     font-size: 30px;
-} */
-/* div:hover{
+}
+div:hover{
     background-color: #F20505;
-} */
-/* footer{
+}
+footer{
     background-image: linear-gradient(to left, #049DD9, #0477BF, #049DD9);
     color: white;
     font-family: sans-serif;
@@ -68,4 +68,4 @@ main{
     padding-top: 3px;
     padding-top: 3px;
     border-radius: 12px;
-} */
+}
